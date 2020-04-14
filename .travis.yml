@@ -5,7 +5,7 @@ branches:
     - master
 
 script:
-  - Rscript -e "install.packages('png')"
+  - Rscript -e "install.packages('pdp')"
   - Rscript -e "rmarkdown::render_site()"
 
 cache:
